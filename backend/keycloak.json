@@ -1,0 +1,8 @@
+{
+    "realm": "group4",
+    "auth-server-url": "https://keycloak.proxy.devops-pse.users.h-da.cloud/",
+    "ssl-required": "external",
+    "resource": "myclient",
+    "public-client": true,
+    "confidential-port": 0
+  }

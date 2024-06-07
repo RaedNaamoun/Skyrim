@@ -1,0 +1,18 @@
+
+
+/* Map and interactive elements should be vivid and clear */
+#map {
+  margin-left: 100px;
+  width: 600%;
+  max-width: 750px; /* Larger map for more details */
+  height: 600px; /* Increased height for a larger view */
+  background: url('images/Ax7S9.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 10px; /* Rounded corners for a classic map look */
+  overflow: hidden;
+  position: relative; /* Needed for absolutely positioned child elements */
+}
+
+.connection {
+  transform-origin: left; /* Adjusted transform origin */
+}
